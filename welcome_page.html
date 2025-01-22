@@ -7,25 +7,35 @@
     <link rel="stylesheet" href="welcome_page.css">
 </head>
 
+
 <body>
     <header>
-        <div>
-            <img src="election_mage1.svg" alt="election" class="election_image1">
-            <div class="header_content">
-            <h1>ziwa lections</h1>
-            <ul>
-                <li><a href="register.html">Register as a candidate</a></li>
-                <li><a href="vote.html">Vote</a></li>
-                <li><a href="follow.html">follow up elections</a></li>
-            </ul>
+        <div class="header_container">
+            <img src="election_mage1.svg" alt="election" class="election_image">
+
+                <h1 class="header_title"><i>WELCOME TO ZIWA ELECTIONS</i></h1>
+              
+                <div class="menu_icon" onclick="toggleMenu()">&#9776;</div>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="about">aboutUs</a></li>
+                        <li><a href="message">vote</a></li>
+                        <li><a href="welcome">word of welcome</a></li>
+                        <li><a href="contact">contact</a></li>
+                    </ul>    
+                </nav>
             </div>
         </div>
     </header>
 
+    <script src="wecome_page.js"></script>
 
+    
     <div>
         <h1>welcome to ziwa elections </h1>
-
+    </div>
+     
+     <div>
         <button>
             <a href="register.html">REGISTER AS A VOTER</a>
         </button>
@@ -39,11 +49,11 @@
         <button>
             <a href="follow.html">FOLLOW UP ELECTIONS</a>
         </button>
+      </div>
 
 
 
-
-    </div>
+     
 
 </body>
 </html>
