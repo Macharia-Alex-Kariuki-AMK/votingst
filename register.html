@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <form action="register.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required>
+    <div class="container">
+        <h1>Register as a Candidate</h1>
+        <form id="registerForm" action="#" method="POST" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="admissionNumber">Admission Number:</label>
+            <input type="text" id="admissionNumber" name="admissionNumber" required>
+
+            
+            
+            <label for="seat">Seat (e.g., President, Finance CS):</label>
+            <select name="candidates" id="candidates">
+                <option value="president">Institution President</option>
+                <option value="health">CS Healt</option>
+                <option value="finance">CS Finance</option>
+                <option value="societies">CS societies</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+<br>
+<br>
+            <label for="photo">Upload Profile Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*">
+
+            <button type="submit">Register</button>
+        </form>
         <br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password" required>
-        <br>
-        <label for="confirm_password">Confirm Password:</label>
-        <input type="password" name="confirm_password" id="confirm_password" required>
-        <br>
-        <button type="submit">Register</button>
-    </form>
+        <a href="welcome_page.html">Back to Home</a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
