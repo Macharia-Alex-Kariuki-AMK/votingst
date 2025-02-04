@@ -11,10 +11,10 @@
         <h1>Register as a Candidate</h1>
         <form id="registerForm" action="#" method="POST" enctype="multipart/form-data">
             <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required placeholder="e.g., Alex Macharia">
 
             <label for="admissionNumber">Admission Number:</label>
-            <input type="text" id="admissionNumber" name="admissionNumber" required>
+            <input type="text" id="admissionNumber" name="admissionNumber" required placeholder="e.g., 2000F00754">
 
             
             
@@ -24,9 +24,9 @@
                 <option value="health">CS Healt</option>
                 <option value="finance">CS Finance</option>
                 <option value="societies">CS societies</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="">CS societies</option>
+                <option value="">CS societies</option>
+                <option value="">CS societies</option>
             </select>
 <br>
 <br>
@@ -36,7 +36,11 @@
             <button type="submit">Register</button>
         </form>
         <br>
-        <a href="welcome_page.html">Back to Home</a>
+        <a href="welcome_page.html">
+            <button class="backButton">
+               << Back to Home
+            </button>
+        </a>
     </div>
 
     <script src="script.js"></script>

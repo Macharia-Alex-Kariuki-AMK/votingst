@@ -17,10 +17,10 @@ body {
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: rgb(219, 218, 218);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -39,12 +39,14 @@ p {
 
 .btn {
     display: inline-block;
-    background-color: #0056b3;
+    background-color: #427cbb;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     margin: 10px;
     border-radius: 5px;
+    width: 50%;
+    border: solid 1px rgb(0, 0, 197);
 }
 
 .btn:hover {
@@ -63,7 +65,16 @@ form label {
 form input {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 0px black;
+    margin-top: 5px;
+
+}
+
+label{
+    margin-bottom: 5px;
 }
 
 form button {
@@ -94,3 +105,26 @@ img {
   
     margin-bottom: 10px;
 }
+
+.back_button{
+ 
+ color: wheat;
+ background-color: rgb(226, 65, 65);
+ border: 0;
+ height: auto;
+ margin-left: 50px;
+ margin-top: 20px;
+ height: 25px;
+ border-radius: 10px;
+}
+
+.back{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
